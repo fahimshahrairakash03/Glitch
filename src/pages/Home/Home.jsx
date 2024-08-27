@@ -6,6 +6,9 @@ import FooterCard from "../FooterCard/FooterCard";
 import BannerTech from "../BannerTech/BannerTech";
 import BannerTalent from "../BannerTalent/BannerTalent";
 import BannerQuality from "../BannerQuality/BannerQuality";
+import Hiringbanner from "../Hiringbanner/Hiringbanner";
+import AnimatedBanner from "../AnimatedBanner/AnimatedBanner";
+import star from "../../assets/image/backgroud/stars-background.svg";
 
 const Home = () => {
   return (
@@ -13,6 +16,8 @@ const Home = () => {
       <Banner></Banner>
       <Banner3></Banner3>
       <BannerQuality></BannerQuality>
+      <AnimatedBanner></AnimatedBanner>
+      <Hiringbanner></Hiringbanner>
       <BannerTalent></BannerTalent>
       <BannerTech></BannerTech>
     </div>
