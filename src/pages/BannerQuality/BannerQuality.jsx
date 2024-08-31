@@ -16,7 +16,7 @@ const BannerQuality = () => {
         </h2>
       </div>
 
-      <div className="pt-16 grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="pt-16 grid gap-5  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="card brightness-200 shadow-lg  shadow-indigo-500/50 bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img className="z-0" src={cardBanner} alt="Shoes" />
@@ -53,7 +53,7 @@ const BannerQuality = () => {
           </div>
         </div>
       </div>
-      <div className="mt-7 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="mt-7 grid gap-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="card   bg-gray-800 text-neutral-content w-96">
           <div className="card-body items-center text-center">
             <h2 className=" text-white">COST EFFECTIVE</h2>

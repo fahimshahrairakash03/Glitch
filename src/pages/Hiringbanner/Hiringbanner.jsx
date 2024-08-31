@@ -15,7 +15,7 @@ const Hiringbanner = () => {
         </h2>
       </div>
 
-      <div className="pt-16 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="pt-16 gap-5 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="card   bg-gray-800 text-neutral-content w-96">
           <div className="card-body items-center text-center">
             <h2 className=" text-white">COST EFFECTIVE</h2>
@@ -51,7 +51,7 @@ const Hiringbanner = () => {
           </div>
         </div>
       </div>
-      <div className="mt-7 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="mt-7 gap-5 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div
           style={{ backgroundColor: "#4f4fc7" }}
           className="card relative brightness-125 hover:border-2 shadow-xl shadow-indigo-500/50	  bg-gray-800 text-neutral-content w-96"

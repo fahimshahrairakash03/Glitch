@@ -8,7 +8,7 @@ const BannerTalent = () => {
     <div className="pt-10" style={{ backgroundColor: "#0b1926" }}>
       <div className="hero bg-transparent px-14 ">
         <div className="hero-content   flex-col lg:flex-row">
-          <div className=" w-1/2  rounded-lg shadow-2xl">
+          <div className=" sm:w-full lg:w-1/2  rounded-lg shadow-2xl">
             {/* <ReactPlayer url="https://www.youtube.com/watch?v=F1M5_RlVhGQ"></ReactPlayer> */}
             <Lottie animationData={world} loop={true} />
           </div>

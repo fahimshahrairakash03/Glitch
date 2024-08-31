@@ -1,12 +1,20 @@
 import React from "react";
 import bannerImg from "../../assets/image/banner.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const menuItem = (
     <>
-      <li>
-        <a className="text-white">Home</a>
-      </li>
+      <Link to="/">
+        <li>
+          <a className="text-white">Home</a>
+        </li>
+      </Link>
+      <Link to="/work">
+        <li>
+          <a className="text-white">Our Work</a>
+        </li>
+      </Link>
     </>
   );
   return (

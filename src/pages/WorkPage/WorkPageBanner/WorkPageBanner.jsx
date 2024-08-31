@@ -1,18 +1,17 @@
 import React from "react";
-import ReactPlayer from "react-player";
-import world from "../../assets/image/lottie/world.json";
+import world from "../../../assets/image/lottie/world.json";
 import Lottie from "lottie-react";
+import star from "../../../assets/image/backgroud/stars-background.svg";
 
-const Banner2 = () => {
+const WorkPageBanner = () => {
   return (
     <div>
-      <div className="hero bg-transparent px-14 ">
+      <div className="hero bg-transparent px-14 py-10  ">
         <div className="hero-content   flex-col lg:flex-row-reverse">
           <div className="sm:w-full lg:w-1/2">
-            {/* <ReactPlayer url="https://www.youtube.com/watch?v=F1M5_RlVhGQ"></ReactPlayer> */}
             <Lottie animationData={world} loop={true}></Lottie>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 ">
             <h1 className="text-4xl sm:text-center lg:text-left text-white font-bold">
               <span style={{ color: "#7d96fb" }}>
                 The best creative partner{" "}
@@ -39,4 +38,4 @@ const Banner2 = () => {
   );
 };
 
-export default Banner2;
+export default WorkPageBanner;
