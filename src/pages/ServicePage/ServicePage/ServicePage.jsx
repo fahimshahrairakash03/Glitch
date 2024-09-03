@@ -48,7 +48,7 @@ const ServicePage = () => {
               <p className="pb-1 pt-6  lg:text-xl text-gray-300">
                 AI is changing everything, especially design.
                 <span className="text-white font-semibold">
-                  Superside is your shortcut to an AI-powered creative team.
+                  Supe is your shortcut to an AI-powered creative team.
                 </span>
               </p>
             </div>
