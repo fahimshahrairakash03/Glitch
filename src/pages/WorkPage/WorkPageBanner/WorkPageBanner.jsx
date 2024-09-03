@@ -2,17 +2,37 @@ import React from "react";
 import world from "../../../assets/image/lottie/world.json";
 import Lottie from "lottie-react";
 import star from "../../../assets/image/backgroud/stars-background.svg";
+import { AutoplayVideo } from "@wethegit/react-autoplay-video";
+import video from "../../../assets/video/workflow.mp4";
 
 const WorkPageBanner = () => {
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
   return (
     <div>
       <div className="hero bg-transparent px-14 py-10  ">
         <div className="hero-content   flex-col lg:flex-row-reverse">
           <div className="sm:w-full lg:w-1/2">
-            <Lottie animationData={world} loop={true}></Lottie>
+            <div className="lg:hidden">
+              <Lottie animationData={world} loop={true}></Lottie>
+            </div>
+            <AutoplayVideo
+              src={video}
+              posterImg="your-poster-image.jpg"
+              description="This is a description of the video."
+              prefersReducedMotion={prefersReducedMotion}
+              style={{ "--aspect-ratio": "calc((9 / 16) * 100%)" }}
+              renderReducedMotionFallback={() => (
+                <img
+                  src="your-fallback-image.jpg"
+                  alt="Description of the fallback image."
+                />
+              )}
+            />
           </div>
-          <div className="w-1/2 ">
-            <h1 className="text-4xl sm:text-center lg:text-left text-white font-bold">
+          <div className="lg:w-1/2 ">
+            <h1 className="text-4xl  sm:text-center lg:text-left text-white font-bold">
               <span style={{ color: "#7d96fb" }}>
                 The best creative partner{" "}
               </span>

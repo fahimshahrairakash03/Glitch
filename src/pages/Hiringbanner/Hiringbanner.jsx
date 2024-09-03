@@ -1,10 +1,14 @@
 import React from "react";
 import icon1 from "../../assets/image/icon/cardIcon1.png";
 import icon2 from "../../assets/image/icon/icon2.png";
+import star from "../../assets/image/backgroud/stars-background.svg";
 
 const Hiringbanner = () => {
   return (
-    <div style={{ backgroundColor: "#0b1926" }} className="px-5 py-10">
+    <div
+      style={{ backgroundColor: "#0b1926", backgroundImage: `url(${star})` }}
+      className="px-5 py-10"
+    >
       <div>
         <p className="text-gray-300 text-center text-xl font-semibold">
           THE NUMBERS DON'T LIE

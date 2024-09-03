@@ -11,6 +11,7 @@ import WorkpageBannerServices from "../WorkpageBannerServices/WorkpageBannerServ
 const WorkPage = () => {
   return (
     <div
+      className="lg:pt-10"
       style={{ backgroundColor: "#0b1926", backgroundImage: `url(${star})` }}
     >
       <WorkPageBanner></WorkPageBanner>

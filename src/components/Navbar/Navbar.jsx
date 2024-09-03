@@ -15,6 +15,11 @@ const Navbar = () => {
           <a className="text-white">Our Work</a>
         </li>
       </Link>
+      <Link to="/service">
+        <li>
+          <a className="text-white">Service</a>
+        </li>
+      </Link>
     </>
   );
   return (

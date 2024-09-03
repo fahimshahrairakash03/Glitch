@@ -7,20 +7,23 @@ import Marquee from "react-fast-marquee";
 const CompanySlide = () => {
   return (
     <div className="py-24">
+      <h1 className=" text-white text-center py-10">
+        THESE BRANDS ALREADY STEPPED UP THEIR GAME WITH SUPERSIDE
+      </h1>
       <div>
         <Marquee className="mb-10">
-          <img className="mx-5  opacity-15" src={reddit} alt="" />
+          <img className="mx-5 " src={reddit} alt="" />
 
-          <img className="mx-5 mt-1 opacity-15" src={booking} alt="" />
+          <img className="mx-5 mt-1 " src={booking} alt="" />
 
-          <img className="mx-5 opacity-15" src={coinbase} alt="" />
+          <img className="mx-5" src={coinbase} alt="" />
         </Marquee>
         <Marquee direction="right">
-          <img className="mx-5  opacity-15" src={reddit} alt="" />
+          <img className="mx-5  " src={reddit} alt="" />
 
-          <img className="mx-5 mt-1 opacity-15" src={booking} alt="" />
+          <img className="mx-5 mt-1 " src={booking} alt="" />
 
-          <img className="mx-5 opacity-15" src={coinbase} alt="" />
+          <img className="mx-5 " src={coinbase} alt="" />
         </Marquee>
       </div>
     </div>

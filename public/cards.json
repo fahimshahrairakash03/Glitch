@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "img": "../src/assets/image/ServicePage/card1.png"
+  },
+  {
+    "id": "2",
+    "img": "../src/assets/image/ServicePage/card2.png"
+  },
+  {
+    "id": "3",
+    "img": "../src/assets/image/ServicePage/card3.png"
+  }
+]

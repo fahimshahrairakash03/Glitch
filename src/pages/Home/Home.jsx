@@ -9,6 +9,7 @@ import BannerQuality from "../BannerQuality/BannerQuality";
 import Hiringbanner from "../Hiringbanner/Hiringbanner";
 import AnimatedBanner from "../AnimatedBanner/AnimatedBanner";
 import star from "../../assets/image/backgroud/stars-background.svg";
+import CompanySlide from "../Banner/CompanySlide";
 
 const Home = () => {
   return (
