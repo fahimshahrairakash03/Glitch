@@ -277,7 +277,7 @@ const ServicePage = () => {
               className="relative lg:row-span-2 bg-cover h-full lg:h-screen rounded-sm h-64 w-full px-5 py-6 bg-gray-900"
             >
               <img
-                className="lg:absolute hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 lg:-top-20"
+                className="lg:absolute animate-pulse lg:animate-none hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 lg:-top-20"
                 src={cardicon1}
                 alt=""
               />
