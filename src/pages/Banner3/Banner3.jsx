@@ -28,7 +28,8 @@ const Banner3 = () => {
     },
   ];
   return (
-    <div className="h-full bg-cover" style={{ backgroundImage: `url(${img})` }}>
+    <div className="h-full bg-cover" style={{ backgroundColor: "#1E1E1E" }}>
+      {/* style={{ backgroundImage: `url(${img})` }} */}
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4  py-20">
         {featuresCard.map((feature) => (
           <FeatureCard key={feature.id} feature={feature}></FeatureCard>

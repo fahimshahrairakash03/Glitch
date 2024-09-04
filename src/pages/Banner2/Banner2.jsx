@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import world from "../../assets/image/lottie/world.json";
 import Lottie from "lottie-react";
 import { AutoplayVideo } from "@wethegit/react-autoplay-video";
-import video from "../../assets/video/workflow.mp4";
+import video from "../../assets/video/video1.mp4";
 
 const Banner2 = () => {
   const prefersReducedMotion = window.matchMedia(
@@ -34,8 +34,8 @@ const Banner2 = () => {
             />
           </div>
           <div className="w-1/2">
-            <h1 className="text-4xl sm:text-center lg:text-left text-white font-bold">
-              <span style={{ color: "#7d96fb" }}>
+            <h1 className="text-5xl sm:text-center lg:text-left text-white font-bold">
+              <span style={{ color: "#5CC5C6" }}>
                 The best creative partner{" "}
               </span>
               you will ever have

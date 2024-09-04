@@ -5,17 +5,17 @@ import Lottie from "lottie-react";
 
 const BannerTech = () => {
   return (
-    <div className="pt-10" style={{ backgroundColor: "#0b1926" }}>
+    <div className="pt-10" style={{ backgroundColor: "#1E1E1E" }}>
       <div className="hero bg-transparent px-14 ">
         <div className="hero-content   flex-col lg:flex-row-reverse">
-          <div className=" w-1/2 rounded-lg shadow-2xl">
+          <div className=" w-1/2 rounded-lg ">
             {/* <ReactPlayer url="https://www.youtube.com/watch?v=F1M5_RlVhGQ"></ReactPlayer> */}
             <Lottie animationData={laptop} loop={true} />
           </div>
           <div className="w-1/2">
             <h1 className="text-5xl text-white font-bold">
               Plug into
-              <span style={{ color: "#7d96fb" }}> the future of design</span>
+              <span style={{ color: "#5CC5C6" }}> the future of design</span>
             </h1>
             <p className="pb-1 pt-6  text-xl text-gray-300">
               AI is changing everything, especially design.

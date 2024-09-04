@@ -57,12 +57,13 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            style={{ background: "#5bff87" }}
-            className="btn mr-2 border-none hover:shadow-xl  hover:shadow-green-400/25"
+            style={{ background: "#E12167" }}
+            className="btn mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
           >
             Book a Demo
           </a>
-          <button className="btn bg-transparent  border-white text-white">
+
+          <button className="btn bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
             Sign In
           </button>
         </div>

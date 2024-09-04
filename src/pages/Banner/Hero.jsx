@@ -18,8 +18,8 @@ const Hero = () => {
 
       <div>
         <button
-          style={{ background: "#5bff87" }}
-          className="btn border-none btn-wide text-lg hover:shadow-xl  hover:shadow-green-400/25 btn-primary mt-5 text-black"
+          style={{ background: "#E12167" }}
+          className="btn border-none btn-wide text-lg hover:shadow-xl  hover:shadow-pink-400/25 text-white text-lg btn-primary mt-5 text-black"
         >
           Start Here
         </button>

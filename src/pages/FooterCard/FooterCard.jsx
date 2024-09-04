@@ -15,8 +15,8 @@ const FooterCard = () => {
           </h1>
           <div className="pt-10 pb-4">
             <button
-              style={{ background: "#5bff87" }}
-              className="btn btn-primary text-black "
+              style={{ background: "#E12167" }}
+              className="btn btn-primary border-none text-white text-black "
             >
               Team up with us
             </button>

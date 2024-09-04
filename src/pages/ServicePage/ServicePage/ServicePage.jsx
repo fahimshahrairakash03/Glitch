@@ -57,7 +57,7 @@ const ServicePage = () => {
       </div>
 
       <div
-        style={{ backgroundColor: "#0b1926", backgroundImage: `url(${star})` }}
+        style={{ backgroundColor: "#1E1E1E", backgroundImage: `url(${star})` }}
       >
         {/*2nd Section Banner Card Section */}
         <div className="px-4 pt-20">

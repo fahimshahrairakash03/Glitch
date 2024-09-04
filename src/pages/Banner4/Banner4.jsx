@@ -48,10 +48,10 @@ const Banner4 = () => {
         </p>
         <p className="text-center  text-white py-1 text-4xl font-bold">
           With any subscription, you gain access to{" "}
-          <span style={{ color: "#7d96fb" }}>all our</span>
+          <span style={{ color: "#5CC5C6" }}>all our</span>
         </p>
         <p
-          style={{ color: "#7d96fb" }}
+          style={{ color: "#5CC5C6" }}
           className="text-center  text-white text-3xl font-bold"
         >
           creative services

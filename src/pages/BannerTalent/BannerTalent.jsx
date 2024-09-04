@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 
 const BannerTalent = () => {
   return (
-    <div className="pt-10" style={{ backgroundColor: "#0b1926" }}>
+    <div className="pt-10" style={{ backgroundColor: "#1E1E1E" }}>
       <div className="hero bg-transparent px-14 ">
         <div className="hero-content   flex-col lg:flex-row">
           <div className=" sm:w-full lg:w-1/2  rounded-lg shadow-2xl">
@@ -16,7 +16,7 @@ const BannerTalent = () => {
             <h1 className="text-xl text-white font-semibold">OUR PEOPLE</h1>
             <h1 className="text-4xl text-white font-bold">
               World-class talent
-              <span style={{ color: "#7d96fb" }}> with no borders</span>
+              <span style={{ color: "#5CC5C6" }}> with no borders</span>
             </h1>
             <p className="pb-1 pt-6 text-xl text-gray-300">
               Work with the top 1% of global creative talent, elite designers,
@@ -29,8 +29,8 @@ const BannerTalent = () => {
               manager who’ll ensure you make the most of your subscription.
             </p>
             <button
-              style={{ background: "#5bff87" }}
-              className="btn border-none btn-wide text-lg hover:shadow-xl  hover:shadow-green-400/25 btn-primary mt-5 text-black"
+              style={{ background: "#E12167" }}
+              className="btn border-none btn-wide text-lg hover:shadow-xl  hover:shadow-pink-400/25 btn-primary mt-5 text-white"
             >
               Meet our people
             </button>
