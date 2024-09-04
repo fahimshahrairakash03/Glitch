@@ -1,6 +1,7 @@
 import React from "react";
 import bannerImg from "../../assets/image/banner.png";
 import { Link } from "react-router-dom";
+import Button1 from "../buttons/Button1/Button1";
 
 const Navbar = () => {
   const menuItem = (
@@ -56,12 +57,13 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{menuItem}</ul>
         </div>
         <div className="navbar-end">
-          <a
+          {/* <a
             style={{ background: "#5bff87" }}
             className="btn mr-2 border-none hover:shadow-xl  hover:shadow-green-400/25"
           >
             Book a Demo
-          </a>
+          </a> */}
+          <Button1>Book a Demo</Button1>
           <button className="btn bg-transparent  border-white text-white">
             Sign In
           </button>

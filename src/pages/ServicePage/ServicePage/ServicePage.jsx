@@ -8,6 +8,8 @@ import star from "../../../assets/image/backgroud/stars-background.svg";
 import BannerCard1 from "../../../components/BannerCard1/BannerCard1";
 import mobile from "../../../assets/image/ServicePage/img3.png";
 import BannerCard2 from "../../../components/BannerCard2/BannerCard2";
+import background1 from "../../../assets/image/ServicePage/background1.png";
+import Button1 from "../../../components/buttons/Button1/Button1";
 
 const ServicePage = () => {
   const [cards, setCards] = useState([]);
@@ -129,6 +131,33 @@ const ServicePage = () => {
             {adervices.map((adervice) => (
               <BannerCard2 key={adervice.id} prop={adervice}></BannerCard2>
             ))}
+          </div>
+        </div>
+
+        {/* 8th section */}
+        <div className="px-4 rounded-lg">
+          <div
+            className="py-5 h-screen   lg:bg-contain bg-no-repeat pl-10"
+            style={{ backgroundImage: `url(${background1})` }}
+          >
+            <h2 className="text-xl text-white pt-20 ">
+              FUTURE-READY EFFICIENCY
+            </h2>
+            <h1 className="text-4xl pt-2 text-white font-bold ">
+              AI-Enhanced Ad Design
+            </h1>
+            <p className="text-lg lg:w-1/2 text-gray-300 pt-2 pb-10">
+              Leverage the power of AI to improve efficiency and cost savings in
+              our design services. Superside’s AI-enhanced workflows streamline
+              the creation of ad designs and creative, delivering results up to
+              60% faster. Leverage the power of AI to improve efficiency and
+              cost savings in our design services. Superside’s AI-enhanced
+              workflows streamline the creation of ad designs and creative,
+              delivering results up to 60% faster.
+            </p>
+            <Button1>
+              <p className="px-8 text-lg">Book a Call</p>
+            </Button1>
           </div>
         </div>
       </div>
