@@ -20,6 +20,9 @@ const Navbar = () => {
           <a className="text-white">Service</a>
         </li>
       </Link>
+      {/* <button className="btn bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
+        Sign In
+      </button> */}
     </>
   );
   return (
@@ -30,7 +33,7 @@ const Navbar = () => {
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -45,9 +48,18 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               {menuItem}
+              <button
+                style={{ background: "#E12167" }}
+                className="btn my-2 mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
+              >
+                Book a Demo
+              </button>
+              <button className="btn bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
+                Sign In
+              </button>
             </ul>
           </div>
           <a className="btn btn-ghost text-white text-xl">GLITCH</a>
@@ -56,14 +68,14 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{menuItem}</ul>
         </div>
         <div className="navbar-end">
-          <a
+          <button
             style={{ background: "#E12167" }}
-            className="btn mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
+            className="btn hidden lg:block mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
           >
             Book a Demo
-          </a>
+          </button>
 
-          <button className="btn bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
+          <button className="btn hidden lg:block bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
             Sign In
           </button>
         </div>
