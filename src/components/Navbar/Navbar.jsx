@@ -20,6 +20,11 @@ const Navbar = () => {
           <a className="text-white">Service</a>
         </li>
       </Link>
+      <Link to="/service">
+        <li>
+          <a className="text-white">Service</a>
+        </li>
+      </Link>
       {/* <button className="btn bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
         Sign In
       </button> */}
@@ -64,10 +69,8 @@ const Navbar = () => {
           </div>
           <a className="btn btn-ghost text-white text-xl">GLITCH</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItem}</ul>
-        </div>
-        <div className="navbar-end">
           <button
             style={{ background: "#E12167" }}
             className="btn hidden lg:block mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
@@ -79,6 +82,18 @@ const Navbar = () => {
             Sign In
           </button>
         </div>
+        {/* <div className="navbar-end">
+          <button
+            style={{ background: "#E12167" }}
+            className="btn hidden lg:block mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
+          >
+            Book a Demo
+          </button>
+
+          <button className="btn hidden lg:block bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
+            Sign In
+          </button>
+        </div> */}
       </div>
     </div>
   );
