@@ -14,7 +14,6 @@ const Banner = () => {
     >
       <Hero></Hero>
       <CompanySlide></CompanySlide>
-      <Banner2></Banner2>
     </div>
   );
 };

@@ -15,9 +15,10 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <AnimatedBanner></AnimatedBanner>
+      <Banner2></Banner2>
       <Banner3></Banner3>
       <BannerQuality></BannerQuality>
-      <AnimatedBanner></AnimatedBanner>
       <Hiringbanner></Hiringbanner>
       <BannerTalent></BannerTalent>
       <BannerTech></BannerTech>

@@ -10,7 +10,7 @@ const Banner2 = () => {
     "(prefers-reduced-motion: reduce)"
   ).matches;
   return (
-    <div className="">
+    <div style={{ backgroundColor: "#1E1E1E" }} className="">
       <div className="hero bg-transparent px-14 ">
         <div className="hero-content   flex-col lg:flex-row-reverse">
           <div className="sm:w-full lg:w-1/2">

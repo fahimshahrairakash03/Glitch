@@ -1,6 +1,9 @@
 import React from "react";
 import bannerImg from "../../assets/image/banner.png";
 import { Link } from "react-router-dom";
+import Button1 from "../Buttons/Button1";
+import Button2 from "../Buttons/Button2";
+import FormModal from "../FormModal/FormModal";
 
 const Navbar = () => {
   const menuItem = (
@@ -25,9 +28,6 @@ const Navbar = () => {
           <a className="text-white">Service</a>
         </li>
       </Link>
-      {/* <button className="btn bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
-        Sign In
-      </button> */}
     </>
   );
   return (
@@ -71,16 +71,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItem}</ul>
-          <button
-            style={{ background: "#E12167" }}
-            className="btn hidden lg:block mr-2 border-none text-white text-lg hover:shadow-xl  hover:shadow-pink-400/25"
-          >
-            Book a Demo
-          </button>
-
-          <button className="btn hidden lg:block bg-transparent  border-cyan-500 border-2 text-lg hover:border-cyan-500  hover:shadow-cyan-500/25 hover:bg-cyan-500  text-white">
-            Sign In
-          </button>
+          <Button1>
+            <FormModal btnName={"Get In Touch"}></FormModal>
+          </Button1>
+          <Button2>
+            <FormModal btnName={"Join Us"}></FormModal>
+          </Button2>
         </div>
         {/* <div className="navbar-end">
           <button

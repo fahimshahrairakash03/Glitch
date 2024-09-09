@@ -1,4 +1,7 @@
 import React from "react";
+import Button1 from "../../components/Buttons/Button1";
+import Button2 from "../../components/Buttons/Button2";
+import FormModal from "../../components/FormModal/FormModal";
 
 const Hero = () => {
   return (
@@ -16,13 +19,13 @@ const Hero = () => {
         by AI to make your team faster, more efficient, and scalable.
       </p>
 
-      <div>
-        <button
-          style={{ background: "#E12167" }}
-          className="btn border-none btn-wide text-lg hover:shadow-xl  hover:shadow-pink-400/25 text-white text-lg btn-primary mt-5 text-black"
-        >
-          Start Here
-        </button>
+      <div className="lg:flex mt-6">
+        <Button1>
+          <FormModal btnName={"Get In Touch"}></FormModal>
+        </Button1>
+        <Button2>
+          <FormModal btnName={"Join Us"}></FormModal>
+        </Button2>
       </div>
     </div>
   );
