@@ -99,6 +99,31 @@ const ServicePage = () => {
             </div>
           </div>
         </div>
+        {/*4th Section  REPEAT */}
+        <div>
+          <div className="hero bg-transparent px-14 pt-20 pb-32 ">
+            <div className="hero-content   flex-col lg:flex-row">
+              <div className=" lg:w-1/2 rounded-lg hover:animate-pulse">
+                {/* <ReactPlayer url="https://www.youtube.com/watch?v=F1M5_RlVhGQ"></ReactPlayer> */}
+                <img src={mobile} alt="" />
+              </div>
+              <div className="lg:w-1/2">
+                <h1 className=" lg:text-5xl  text-white font-bold">
+                  Ad creative for campaigns that perform
+                </h1>
+                <p className="pb-1 pt-6  lg:text-xl text-gray-300">
+                  The need for compelling ad creative has never been greater.
+                  But, when your biggest challenge is getting to market, the
+                  best solution is plugging into Superside’s flexible ad design
+                  services.
+                  <span className="text-white font-semibold">
+                    Superside is your shortcut to an AI-powered creative team.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* 5th Section */}
         <div className="px-8">

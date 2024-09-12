@@ -5,14 +5,14 @@ import star from "../../../assets/image/backgroud/stars-background.svg";
 import { AutoplayVideo } from "@wethegit/react-autoplay-video";
 import video from "../../../assets/video/workflow.mp4";
 
-const WorkPageBanner = () => {
+const WorkPageBanner = ({ flexDir }) => {
   const prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)"
   ).matches;
   return (
     <div>
       <div className="hero bg-transparent px-14 py-10  ">
-        <div className="hero-content   flex-col lg:flex-row-reverse">
+        <div className={`hero-content   flex-col lg:${flexDir}`}>
           <div className="sm:w-full lg:w-1/2">
             <div className="lg:hidden">
               <Lottie animationData={world} loop={true}></Lottie>

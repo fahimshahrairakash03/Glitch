@@ -14,11 +14,13 @@ const WorkPage = () => {
       className="lg:pt-10"
       style={{ backgroundColor: "#0b1926", backgroundImage: `url(${star})` }}
     >
-      <WorkPageBanner></WorkPageBanner>
+      <WorkPageBanner flexDir={"flex-row-reverse"}></WorkPageBanner>
 
       <WorkpageBannerServices></WorkpageBannerServices>
-      <ProjectsBanner></ProjectsBanner>
-      <BlogBanner></BlogBanner>
+      <WorkPageBanner flexDir={"flex-row-reverse"}></WorkPageBanner>
+      <WorkPageBanner flexDir={"flex-row"}></WorkPageBanner>
+      {/* <ProjectsBanner></ProjectsBanner>
+      <BlogBanner></BlogBanner> */}
     </div>
   );
 };
